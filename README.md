@@ -1,7 +1,7 @@
 ## Android和ios的icon导出脚本
-> Env：python3.6  
-    - ***Depends pillow***：pip install pillow
+> 运行环境：python3.6  
+    - ***依赖库pillow的安装***：pip install pillow
 
-> Use:  
-    - ***In console***: python3 icon_generate_tools.py srcIconFile [ANDROID|IOS]  
-    - ***Sample***: python3 icon_generate_tools.py 1024x1024.png ANDROID
+> 使用方法:  
+    - ***终端命令行***: python3 icon_generate_tools.py srcIconFile [ANDROID|IOS]  
+    - ***示例***: python3 icon_generate_tools.py 1024x1024.png ANDROID
