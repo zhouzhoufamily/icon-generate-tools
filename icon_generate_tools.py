@@ -149,13 +149,13 @@ def mask_all_platform():
 
     if len(sys.argv) < 3:
         print("args err !, sample: python3 icon_generate_tools.py 1024x1024.png ANDROID")
-        os.system("pause")
+        input("exit")
         return
 
     filePath = sys.argv[1]
     if not os.path.exists(filePath):
-        print("args 1 src file path err!")
-        os.system("pause")
+        print("args 1 src file path err!", filePath)
+        input("exit")
         return
 
     plat = sys.argv[2]
